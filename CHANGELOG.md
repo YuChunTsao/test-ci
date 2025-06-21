@@ -1,3 +1,10 @@
+# [0.6.0](https://github.com/YuChunTsao/test-ci/compare/v0.5.0...v0.6.0) (2025-06-21)
+
+
+### Features
+
+* Add other os ([55bc23b](https://github.com/YuChunTsao/test-ci/commit/55bc23bf343a61c405b5ab60ac8bcb35e53154a9))
+
 # [0.5.0](https://github.com/YuChunTsao/test-ci/compare/v0.4.0...v0.5.0) (2025-06-21)
 
 
