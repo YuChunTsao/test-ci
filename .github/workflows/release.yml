@@ -30,13 +30,21 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Build Linux executable
-        run: dotnet publish ./MyProject/MyProject.csproj -c Release -r linux-x64 --self-contained true -p:PublishSingleFile=true -o ./publish/linux
+        run: |
+          dotnet publish ./MyProject/MyProject.csproj -c Release -r linux-x64 --self-contained true -p:PublishSingleFile=true -p:DebugType=none -o ./publish/linux
+          cd ./publish/linux
+          tar -czvf MyProject-v${{ github.ref_name }}-linux-x64.tar.gz *
 
       - name: Build macOS executable
-        run: dotnet publish ./MyProject/MyProject.csproj -c Release -r osx-x64 --self-contained true -p:PublishSingleFile=true -o ./publish/osx
+        run: |
+          dotnet publish ./MyProject/MyProject.csproj -c Release -r osx-x64 --self-contained true -p:PublishSingleFile=true -p:DebugType=none -o ./publish/osx
+          cd ./public/osx
+          tar -czvf MyProject-v${{ github.ref_name }}-osx-x64.tar.gz *
 
       - name: Build Windows executable
-        run: dotnet publish ./MyProject/MyProject.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ./publish/win
+        run: |
+          dotnet publish ./MyProject/MyProject.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:DebugType=none -o ./publish/win
+          zip -r MyProject-v${{ github.ref_name }}-win-x64.zip ./publish/win/MyProject.exe
 
       - name: Run semantic-release
         env:

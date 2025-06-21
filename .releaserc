@@ -15,9 +15,9 @@
       "@semantic-release/github",
       {
         "assets": [
-          { "path": "publish/linux/MyProject", "name": "MyProject-linux-x64-${nextRelease.version}", "label": "MyProject Linux x64" },
-          { "path": "publish/osx/MyProject", "name": "MyProject-osx-x64-${nextRelease.version}", "label": "MyProject macOS x64" },
-          { "path": "publish/win/MyProject.exe", "name": "MyProject-win-x64-${nextRelease.version}.exe", "label": "MyProject Windows x64" }
+          { "path": "publish/linux/MyProject-*.tar.gz", "name": "MyProject-linux-v${nextRelease.version}-linux-x64.tar.gz", "label": "MyProject v${nextRelease.version} for Linux (x64)" },
+          { "path": "publish/win32/MyProject-*.zip", "name": "MyProject-win32-v${nextRelease.version}-win32-x64.zip", "label": "MyProject v${nextRelease.version} for Windows (x64)" },
+          { "path": "publish/osx/MyProject-*.tar.gz", "name": "MyProject-osx-v${nextRelease.version}-osx-x64.tar.gz", "label": "MyProject v${nextRelease.version} for macOS (x64)" }
         ]
       }
     ]
