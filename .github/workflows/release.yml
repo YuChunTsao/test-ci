@@ -38,7 +38,7 @@ jobs:
       - name: Build macOS executable
         run: |
           dotnet publish ./MyProject/MyProject.csproj -c Release -r osx-x64 --self-contained true -p:PublishSingleFile=true -p:DebugType=none -o ./publish/osx
-          cd ./public/osx
+          cd ./publish/osx
           tar -czvf MyProject-v${{ github.ref_name }}-osx-x64.tar.gz *
 
       - name: Build Windows executable
