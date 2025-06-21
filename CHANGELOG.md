@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/YuChunTsao/test-ci/compare/v0.4.0...v0.5.0) (2025-06-21)
+
+
+### Features
+
+* publish with a single file ([320adef](https://github.com/YuChunTsao/test-ci/commit/320adef3b3d5600feccc28a1d35f1df8c14cf396))
+
 # [0.4.0](https://github.com/YuChunTsao/test-ci/compare/v0.3.0...v0.4.0) (2025-06-21)
 
 
