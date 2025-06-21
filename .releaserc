@@ -12,5 +12,10 @@
       }
     ],
     "@semantic-release/github",
-  ]
+  ],
+  "github": {
+    "assets": [
+      "publish/MyProject"
+    ]
+  }
 }
