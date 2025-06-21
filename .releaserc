@@ -15,7 +15,9 @@
       "@semantic-release/github",
       {
         "assets": [
-          { "path": "publish/MyProject", "label": "MyProject-linux-x64" },
+          { "path": "publish/linux/MyProject", "label": "MyProject-linux-x64" },
+          { "path": "publish/osx/MyProject", "label": "MyProject-osx-x64" },
+          { "path": "publish/win/MyProject.exe", "label": "MyProject-win-x64" }
         ]
       }
     ]
