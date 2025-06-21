@@ -1,3 +1,10 @@
+## [0.8.1](https://github.com/YuChunTsao/test-ci/compare/v0.8.0...v0.8.1) (2025-06-21)
+
+
+### Bug Fixes
+
+* Update windows path ([c9e01a2](https://github.com/YuChunTsao/test-ci/commit/c9e01a200bcdcb03e67dcace2e695e02d2a34cbe))
+
 # [0.8.0](https://github.com/YuChunTsao/test-ci/compare/v0.7.0...v0.8.0) (2025-06-21)
 
 
