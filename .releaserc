@@ -16,7 +16,7 @@
       {
         "assets": [
           { "path": "publish/linux/MyProject-*.tar.gz", "name": "MyProject-linux-v${nextRelease.version}-linux-x64.tar.gz", "label": "MyProject v${nextRelease.version} for Linux (x64)" },
-          { "path": "publish/win32/MyProject-*.zip", "name": "MyProject-win32-v${nextRelease.version}-win32-x64.zip", "label": "MyProject v${nextRelease.version} for Windows (x64)" },
+          { "path": "publish/win/MyProject-*.zip", "name": "MyProject-win-v${nextRelease.version}-win-x64.zip", "label": "MyProject v${nextRelease.version} for Windows (x64)" },
           { "path": "publish/osx/MyProject-*.tar.gz", "name": "MyProject-osx-v${nextRelease.version}-osx-x64.tar.gz", "label": "MyProject v${nextRelease.version} for macOS (x64)" }
         ]
       }
