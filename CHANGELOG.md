@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/YuChunTsao/test-ci/compare/v0.2.0...v0.3.0) (2025-06-21)
+
+
+### Features
+
+* Update github action yml ([c61650a](https://github.com/YuChunTsao/test-ci/commit/c61650ad0fa230ed1f7fada55c8c607ee3fbfbe7))
+
 # [0.2.0](https://github.com/YuChunTsao/test-ci/compare/v0.1.0...v0.2.0) (2025-06-21)
 
 
