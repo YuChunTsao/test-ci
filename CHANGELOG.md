@@ -1,3 +1,10 @@
+# [0.7.0](https://github.com/YuChunTsao/test-ci/compare/v0.6.0...v0.7.0) (2025-06-21)
+
+
+### Features
+
+* Executable file name with version ([a252d2f](https://github.com/YuChunTsao/test-ci/commit/a252d2fd9db4be1b65554e0b24c36885292f8c37))
+
 # [0.6.0](https://github.com/YuChunTsao/test-ci/compare/v0.5.0...v0.6.0) (2025-06-21)
 
 
