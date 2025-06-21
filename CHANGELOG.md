@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/YuChunTsao/test-ci/compare/v0.3.0...v0.4.0) (2025-06-21)
+
+
+### Features
+
+* Update releaserc ([1498a73](https://github.com/YuChunTsao/test-ci/commit/1498a739d0c785362feb9baaa21aadac31b08374))
+
 # [0.3.0](https://github.com/YuChunTsao/test-ci/compare/v0.2.0...v0.3.0) (2025-06-21)
 
 
