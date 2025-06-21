@@ -1,3 +1,15 @@
+# [0.8.0](https://github.com/YuChunTsao/test-ci/compare/v0.7.0...v0.8.0) (2025-06-21)
+
+
+### Bug Fixes
+
+* typo ([91a8423](https://github.com/YuChunTsao/test-ci/commit/91a84238aadbcaa2b5e39d4ccc424769e93236cc))
+
+
+### Features
+
+* Compress the binary ([4040aa4](https://github.com/YuChunTsao/test-ci/commit/4040aa4ca657467e2105b4a7fb98a6ff93626606))
+
 # [0.7.0](https://github.com/YuChunTsao/test-ci/compare/v0.6.0...v0.7.0) (2025-06-21)
 
 
